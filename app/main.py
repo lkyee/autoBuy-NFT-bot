@@ -83,15 +83,15 @@ if __name__ == "__main__":
 
 # MetaMask secret recovery phrase
 # pyautogui.click(700, 380)
-# pyautogui.write("SOME TEXT")
+# pyautogui.write("Secret Recovery Phrase TEXT")
 
 # MetaMask new password
 # pyautogui.click(710, 515)
-# pyautogui.write("Growth98+")
+# pyautogui.write("YOUR_PASSWORD")
 
 # MetaMask confirm new password
 # pyautogui.click(680, 620)
-# pyautogui.write("Growth98+")
+# pyautogui.write("YOUR_PASSWORD")
 
 # Ticks "Terms of Usee" checkbox
 # pyautogui.click(610, 700)
