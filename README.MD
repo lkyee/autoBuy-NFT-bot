@@ -12,5 +12,5 @@ https://www.mobox.io/
 https://www.mobox.io/home/#/iframe/momo?path=market&tab=0
 
 
-#### Website Documentation:
+#### Website Documentation
 https://faqen.mobox.io/
