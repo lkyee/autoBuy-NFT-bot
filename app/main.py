@@ -11,7 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.relative_locator import locate_with
 
 
-class MetaMask:
+class AutoBuyBot:
     def __init__(self):
         self.driver = self.setUp()
 
@@ -70,7 +70,7 @@ class MetaMask:
 
 
 if __name__ == "__main__":
-    seleniumWorkFlow = MetaMask()
+    seleniumWorkFlow = AutoBuyBot()
     seleniumWorkFlow.moboxLogin()
     # seleniumWorkFlow.openMoboxMarket()
     seleniumWorkFlow.metaMaskLogin()
