@@ -31,9 +31,9 @@ class MetaMask:
         # self.driver.find_element_by_xpath(
         #     r"//*[@id='app']/div/div[2]/div[2]/div/div[2]/div/div")
         self.driver.find_element(
-            By.XPATH, "//*[@id='app']/div[2]/div/div[3]/div[1]/div[2]/input").send_keys("bajricvahidin@gmail.com")
+            By.XPATH, "//*[@id='app']/div[2]/div/div[3]/div[1]/div[2]/input").send_keys("Your_GMail_Address")
         self.driver.find_element(
-            By.XPATH, "//*[@id='app']/div[2]/div/div[3]/div[2]/div[2]/input").send_keys("Growth98+")
+            By.XPATH, "//*[@id='app']/div[2]/div/div[3]/div[2]/div[2]/input").send_keys("Your_Mobox_Password")
         self.driver.find_element(
             By.XPATH, "//*[@id='app']/div[2]/div/button/span").click()
 
@@ -61,12 +61,12 @@ class MetaMask:
         secret_recovery_phrase = self.driver.find_element(
             By.XPATH, "//*[@id='app-content']/div/div[2]/div/div/form/div[4]/div[1]/div/input")
         secret_recovery_phrase.clear()
-        secret_recovery_phrase.send_keys("Growth98+")
+        secret_recovery_phrase.send_keys("Your_Metamask_secret_recovery_phrase")
 
         # New Password
-        self.driver.find_element(By.ID, "password").send_keys("Growth98+")
+        self.driver.find_element(By.ID, "password").send_keys("Your_New_Passowrd")
 
-        # password.send_keys("Growth98+")
+        # password.send_keys("Password")
         return
 
 
@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
 # MetaMask secret recovery phrase
 # pyautogui.click(700, 380)
-# pyautogui.write("belt special elbow vacuum senior van vast tower shiver digital remember shallow")
+# pyautogui.write("SOME TEXT")
 
 # MetaMask new password
 # pyautogui.click(710, 515)
