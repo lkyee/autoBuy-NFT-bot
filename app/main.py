@@ -16,7 +16,6 @@ class MetaMask:
         self.driver = self.setUp()
 
     def setUp(self):
-        # This is to remind myself of options.page_load_strategy = 'normal' ## 'eager' ## 'none'
         options = Options()
         options.add_argument("start-maximized")
         options.add_extension(r"app\metamask_extension.crx")
